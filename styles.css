@@ -75,12 +75,14 @@ h1 {
     bottom: 35px;
 }
 
-form {
+.main-form-block {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid;
-    height: 40%;
+    border: 1px solid white;
+    width: auto;
+    gap: 3rem;
+    min-height: auto; /* Allows it to expand as needed */
+    gap: 15px; /* Adds space between items */
 }
 
 label {
@@ -99,7 +101,15 @@ input {
     border-radius: 5px;
     font-size: 12px;
     font-family: sans-serif;
+    width: 100%;
 }
+
+
+.input {border: 1px solid red; display: flex; flex-direction: column;}
+
+
+
+
 
 button {
     background-color: rgb(202, 87, 106);
