@@ -16,34 +16,40 @@
                 <div id="logo-div"><img src="assets/logo.png" alt="company-logo" width="120px" height="auto"> Step into a world of style and protection. Sign up now to enjoy exclusive perks on our preamium sunglasses collections!</div>
                 <div class="main-form-block">
                     <form action="#" method="get">
-                        <div class="input first-name-input">
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                        <div class="input-row-wrapper">
+                            <div class="input first-name-input">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+        
+                            <div class="input last-name-input">
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
                         </div>
     
-                        <div class="input last-name-input">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
-                        </div>
-    
+                       <div class="input-row-wrapper">
                         <div class="input email-input">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="johndoe@email.com" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
     
                         <div class="input phone-number-input">
-                            <label for="phone">Phone Number (Optional)</label>
-                            <input type="tel" id="phone" name="phone" placeholder="+245 (701) 234 456">
+                            <label for="phone">Phone Number (Optional):</label>
+                            <input type="tel" id="phone" name="phone" >
                         </div>
+                       </div>
     
-                        <div class="input password-input">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password" placeholder="Enter Password" required>
-                        </div>
-    
-                        <div class="input password-confirmation-input">
-                            <label for="password-confirmation">Confirm Password</label>
-                            <input type="password" id="password-confirmation" name="password-confirmation" placeholder="Re-Enter Password" required>
+                        <div class="input-row-wrapper">
+                            <div class="input password-input">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+        
+                            <div class="input password-confirmation-input">
+                                <label for="password-confirmation">Confirm Password:</label>
+                                <input type="password" id="password-confirmation" name="password-confirmation" required>
+                            </div>
                         </div>
     
                         <div class="form-button-container">
